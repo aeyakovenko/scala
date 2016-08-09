@@ -6,6 +6,5 @@ lazy val root = (project in file(".")).
   )
 
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.13.0" % "test"
-coverageEnabled := true
 
-
+coverageEnabled in Test := true
